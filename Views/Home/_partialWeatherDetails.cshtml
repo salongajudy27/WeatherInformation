@@ -1,0 +1,50 @@
+﻿@model WeatherApp.Models.ClientWeather;
+@{
+    Layout = null;
+}
+
+@if (Model != null)
+{
+    if (Model.id > 0)
+    {
+        <html>
+            LOCATION: @Model.city, @Model.country
+            <br>
+            WEATHER FORECAST: @Model.weather.FirstOrDefault().main
+            <br>
+            DESCRIPTION: @Model.weather.FirstOrDefault().description
+            <br>
+            TEMPERATURE: @(Model.main.temp - 273.15) &#8451;
+            <br>
+            ATMOSPHERIC PRESSURE: @Model.main.pressure hPa
+            <br>
+            HUMIDITY: @Model.main.humidity %
+            <br>
+            WIND SPEED: @Model.wind.speed meter/ sec
+            <br>
+            CLOUDINESS: @Model.clouds.all %
+            <br>
+            SUNRISE TIME: @DateTimeOffset.FromUnixTimeSeconds(Model.sys.sunrise).DateTime.ToLocalTime()
+            <br>
+            SUNSET TIME: @DateTimeOffset.FromUnixTimeSeconds(Model.sys.sunset).DateTime.ToLocalTime()
+            <br>
+        </html>
+    }
+    else
+    {
+        <html>
+        NO DATA TO SHOW.
+        <br>
+        PLEASE CHECK ENTERED LOCATION.
+    </html>
+    }
+
+}
+else
+{
+    <html>
+            NO DATA TO SHOW.
+    <br>
+            PLEASE CHECK ENTERED LOCATION.
+    </html>
+}
