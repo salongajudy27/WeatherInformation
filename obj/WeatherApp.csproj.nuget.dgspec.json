@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
+    "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherInformation\\WeatherApp.csproj": {}
   },
   "projects": {
-    "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+    "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherInformation\\WeatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherInformation\\WeatherApp.csproj",
         "projectName": "WeatherApp",
-        "projectPath": "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectPath": "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherInformation\\WeatherApp.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\obj\\",
+        "outputPath": "D:\\Judy\\LeadHornet\\WeatherApp\\WeatherApp\\WeatherInformation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
